@@ -1,0 +1,21 @@
+.slider-wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.slider__img {
+    margin-right: 10px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: red;
+}
+
+.slick-prev {
+    left: -45px;
+}
